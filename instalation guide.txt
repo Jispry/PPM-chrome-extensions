@@ -1,0 +1,22 @@
+INSTALATION of ppm_itgsearch chrome extension
+1. in chrome open chrome://extensions/
+2. check "Developer mode"
+3. click "Load unpacked extension..."
+4. Select a folder with extension.
+
+CONFIGURATION:
+1. open ppm_itgsearch.js
+2. customize following code according to your needs
+
+var configuration = {
+		// label of table by witch to group and display data
+		groupingColumnLabel: "Service Name", 
+		// label next to display buttons
+		buttonLabel: "Show Service names:",
+	};
+	
+3. after save reload the chrome extension
+
+RELOAD of chrome extention:
+1. in chrome open chrome://extensions/
+2. select the extension to reload and press "Reload (Ctrl+R)" or just press (Ctrl+R) to reload all chrome extensions

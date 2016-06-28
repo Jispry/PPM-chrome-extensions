@@ -1,0 +1,31 @@
+.btn{
+	border: solid 1px;
+	margin: 1px 2px;
+	padding: 5px 10px;
+	cursor: pointer;
+	cursor: hand;
+	border-radius: 4px;
+	border-color: #ccc;
+	text-align: center;
+	-webkit-user-select: none; /* webkit (safari, chrome) browsers */
+    -moz-user-select: none; /* mozilla browsers */
+    -khtml-user-select: none; /* webkit (konqueror) browsers */
+    -ms-user-select: none; /* IE10+ */
+}
+
+.btn:hower{
+	color: #333;
+    background-color: #e6e6e6;
+    border-color: #adadad;
+}
+
+.btn.active{
+	color: #333;
+    background-color: #e6e6e6;
+    border-color: #adadad;
+}
+
+#ppm-ext-hide-service-btns{
+	padding: 5px;
+	margin: 5px;
+}

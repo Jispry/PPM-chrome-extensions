@@ -1,0 +1,18 @@
+{
+	"manifest_version": 2,
+	"name": "PPM Search Extention",
+	"description": "Extention for PPM RunSearch page",
+	"version": "1.0",
+	"minimum_chrome_version" : "22.0.0.0",
+	"author": "Tomas Haspra",
+	"background": {
+		"scripts": []
+	},
+	"content_scripts": [
+		{
+			"matches": ["https://itg.crifnet.com/itg/web/knta/global/RunSearch.jsp*", "https://itg.crifnet.com/itg/web/knta/global/RunSearch.jsp"],
+			"js": ["jquery-2.1.4.min.js", "ppm_itgsearch.js"],
+			"css": ["ppm_styles.css"]
+		}
+	]
+}
